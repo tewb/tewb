@@ -1,0 +1,36 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+
+const meta = {
+	description: "",
+	title: "about",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">about</h1>
+		<p>
+			hi, i'm tew. i've been programming for fun since middle school until high school where i
+			decided i wanted to pursue the career of software engineering. i used to have creative hobbies
+			like sketching, editing, and graphics design. but after experimenting, i soon discovered my
+			true passion in full-stack web development, where i can combine my both artistic talents and
+			problem solving skills.
+		</p>
+		<p>some of the projects i've built so far in my journey:</p>
+		<ul class="list-inside list-disc">
+			<li>I'm ultra fast as I'm a static site</li>
+			<li>I'm fully responsive</li>
+			<li>I come with a light and dark mode</li>
+		</ul>
+		<p>
+			follow me on <a
+				aria-label="github repository"
+				class="link inline-block"
+				href="https://github.com/tewb"
+				rel="noopener noreferrer"
+				target="_blank">github</a
+			> if this resonated with you
+		</p>
+	</div>
+</PageLayout>
